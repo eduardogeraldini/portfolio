@@ -1,4 +1,4 @@
-import { Envelope, GithubLogo, LinkedinLogo } from "phosphor-react";
+import { Envelope, GithubLogo, LinkedinLogo, WhatsappLogo } from "phosphor-react";
 
 export function Footer() {
   return (
@@ -26,6 +26,14 @@ export function Footer() {
         >
           <Envelope className="text-cyan-300" weight="regular" size={20}/>
         </button>
+
+        <button
+          className="hover:opacity-60 transition-opacity focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-black focus:ring-white"
+          onClick={() => window.open("https://api.whatsapp.com/send?phone=5519995761666&text=Ol%C3%A1!")}
+        >
+          <WhatsappLogo className="text-cyan-300" weight="regular" size={20}/>
+        </button>
+
 
       </div>
 
