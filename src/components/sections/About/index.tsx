@@ -1,3 +1,5 @@
+import imageAbout from '../../../assets/image-about.jpg';
+
 export function About() {
   return (
     <section id="about">
@@ -17,7 +19,7 @@ export function About() {
         </div>
 
         <div className="basis-1/2 justify-self-center flex justify-center items-center">
-          <img className="max-w-md rounded-md" src="https://media-exp1.licdn.com/dms/image/C4E03AQGDKKohzEUZAA/profile-displayphoto-shrink_800_800/0/1566253388043?e=1657756800&v=beta&t=NYn3B4Lp67DlMHzFMCNv_tjl9DyOr5c5cjIGnF8aLTo" alt="" />
+          <img className="max-w-md rounded-md" src={imageAbout} alt="my photo" />
         </div>
       </div>
     </section>
