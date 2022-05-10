@@ -1,47 +1,5 @@
 import { CardPortfolio } from "../../CardPortfolio";
-
-import projectImg from "../../../assets/project.jpg";
-
-const projects = [
-  {
-    name: "Brand nice studio",
-    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-                  ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-                  in voluptate velit esse cillum dolore eu fugiat nulla pariatur.`,
-    image: projectImg
-  },
-  {
-    name: "Brand nice studio",
-    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-                  ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-                  in voluptate velit esse cillum dolore eu fugiat nulla pariatur.`,
-    image: projectImg
-  },
-  {
-    name: "Brand nice studio",
-    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-                  ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-                  in voluptate velit esse cillum dolore eu fugiat nulla pariatur.`,
-    image: projectImg
-  },
-  {
-    name: "Brand nice studio",
-    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-                  ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-                  in voluptate velit esse cillum dolore eu fugiat nulla pariatur.`,
-    image: projectImg
-  },
-];
-
-type ProjectType = typeof projects;
+import { projects } from "../../../data/projects";
 
 export function Portfolio() {
   return (

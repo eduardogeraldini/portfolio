@@ -47,8 +47,8 @@ export function Menu() {
         </div>
 
         {isMenuOpen &&
-          <div className="hidden top-16 left-0 w-screen h-screen absolute bg-black sm:flex sm:items-center sm:justify-center fade-in-left">
-            <div className="flex flex-col gap-8 items-center justify-center">
+          <div className="hidden absolute top-16 left-0 w-full h-screen bg-black sm:flex sm:items-center sm:justify-center fade-in-left">
+            <div className="flex flex-col gap-8 items-center justify-center pb-16">
               <Link
                 to="about"
                 spy={false}
