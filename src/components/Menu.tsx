@@ -81,9 +81,7 @@ export function Menu() {
             </div>
           </div>}
 
-        <a className="sm:hidden" href="https://drive.google.com/file/d/1ggJa-l6tymp3Bob9eBwMtvLIOmfDNH3c/view?usp=sharing" target="_blank">
-          <Button title="Resume" />
-        </a>
+        <div></div>
 
         <button
           onClick={handleMenuClick}

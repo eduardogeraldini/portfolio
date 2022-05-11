@@ -8,14 +8,15 @@ export function Home() {
         <h1 className="text-7xl font-bold text-cyan-300 lg:text-6xl md:text-5xl sm:text-4xl">I am Eduardo Geraldini.</h1>
         <h1 className="text-7xl font-bold lg:text-6xl md:text-5xl sm:text-4xl">I create things for the web!</h1>
 
-        <div className="mt-5 text-lg lg:text-sm ">
+        <div className="mt-5 mb-8 text-lg lg:text-sm ">
           <p>I like to craft solid and scalable web application with a great user experiences.</p>
           <p>I value work team, and accessibility.</p>
         </div>
 
-        <div className="mt-8">
-          <Button title="Portfolio" />
-        </div>
+        <a href="https://drive.google.com/file/d/1ggJa-l6tymp3Bob9eBwMtvLIOmfDNH3c/view?usp=sharing" target="_blank">
+          <Button title="Resume" />
+        </a>
+
       </div>
     </div>
   );
