@@ -10,12 +10,14 @@ export function Portfolio() {
 
       {projects.map((project, index) => {
         return (
-          <div key={index} className="mb-16 lg:mb-12">
+          <div key={index} className="mb-8 last:mb-16">
             <CardPortfolio
               title={project.name}
               description={project.description}
               image={project.image}
               type={index % 2 === 0 ? "right" : "left"}
+              liveUrl={project.liveUrl}
+              codeUrl={project.codeUrl}
             />
           </div>
         )

@@ -19,7 +19,7 @@ export function About() {
         </div>
 
         <div className="basis-1/2 justify-self-center flex justify-center items-center">
-          <img className="max-w-md rounded-md" src={imageAbout} alt="my photo" />
+          <img className="max-w-md rounded-md md:max-w-sm" src={imageAbout} alt="my photo" />
         </div>
       </div>
     </section>
