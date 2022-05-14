@@ -1,5 +1,5 @@
 import projectImg from "../assets/project.jpg";
-import portolioImg from "../assets/readme-image.png";
+import portolioImg from "../assets/readme-image.jpg";
 
 export const projects = [
   {
