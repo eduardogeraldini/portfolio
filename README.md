@@ -1,4 +1,4 @@
-![Logo of the project](https://github.com/eduardogeraldini/portfolio/blob/master/src/assets/readme-image.PNG?raw=true)
+![Logo of the project](https://github.com/eduardogeraldini/portfolio/blob/master/src/assets/readme-image.jpg?raw=true)
 
 ## Projeto: Portfolio
 
