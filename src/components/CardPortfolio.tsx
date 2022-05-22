@@ -11,7 +11,7 @@ interface CardPortfolioProps {
 
 export function CardPortfolio({ title, description, image, type, liveUrl, codeUrl }: CardPortfolioProps) {
   return (
-    <div className={`flex ${type === "left" ? "flex-row-reverse" : "flex-row"} items-center lg:flex-col-reverse gap-8 bg-neutral-900 p-8 rounded-md`}>
+    <div className={`flex ${type === "left" ? "flex-row-reverse" : "flex-row"} items-center lg:flex-col-reverse gap-6 bg-neutral-900 p-4 rounded-md`}>
       <div className="basis-1/2">
         <h1 className="text-xl font-bold lg:text-base">{title}</h1>
 
@@ -35,8 +35,8 @@ export function CardPortfolio({ title, description, image, type, liveUrl, codeUr
         </div>
       </div>
 
-      <div className="basis-1/2 justify-self-center flex justify-center items-center lg:mb-4">
-        <img className="max-w-md rounded-md md:max-w-sm sm:max-w-xs" src={image} alt={'This is a screenshot of project ' + title} />
+      <div className="basis-1/2 justify-self-center flex justify-center items-center">
+        <img className="rounded-md max-h-full max-w-full" src={image}  alt={'This is a screenshot of project ' + title} />
       </div>
     </div>
   );
